@@ -10,7 +10,7 @@ process.stdin.on("data", (data) => {
   }
 
   //   process.stdout.write("You typed: " + cmd)
-  process.stdout.write("prompt >\n ")
+  
 })
-
+process.stdout.write("prompt > ")
 }

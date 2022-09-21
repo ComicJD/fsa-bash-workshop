@@ -30,7 +30,7 @@ const fs = require('fs');
                   throw err;
                 } else {
                   process.stdout.write(files.join('\n'));
-                  process.stdout.write('\nprompt > ');
+                  
                 }
               });
           }
