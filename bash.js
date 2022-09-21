@@ -1,6 +1,3 @@
-
-
-
 // console.log(process.cwd())
 
 //Output a prompt
@@ -17,6 +14,6 @@ process.stdin.on("data", (data) => {
   //   process.stdout.write("You typed: " + cmd)
   process.stdout.write("\nprompt > ")
 })
-
+console.log("test")
 // we want pwd to equal ./
->>>>>>> 837aa94b7a919c4e481b89b22a845cd701f90318
+
