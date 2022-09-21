@@ -1,19 +1,7 @@
-// console.log(process.cwd())
+const pwd = require('./pwd');
+const ls = require('./ls');
 
-//Output a prompt
-process.stdout.write("prompt > ")
+pwd();
+ls();
 
-// The stdin 'data' event fires after a user types in a line
-process.stdin.on("data", (data) => {
-  const cmd = data.toString().trim() //remove the newline
-
-  if (cmd === "pwd") {
-    console.log(process.cwd())
-  }
-
-  //   process.stdout.write("You typed: " + cmd)
-  process.stdout.write("\nprompt > ")
-})
-console.log("test")
-// we want pwd to equal ./
 
